@@ -1,6 +1,13 @@
 body {
     width: 1440px;
-    background-color: ;
+    background-color:;
+    color: ;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
 }
 
 /* Header content */
@@ -9,4 +16,11 @@ body {
 /* Footer content */
 .logo-item {
     color: #4D5AE5;
+}
+.logo-item:hover,
+.logo-item:focus {
+    color: fuchsia;
+}
+.logo-item:active {
+    color: aqua;
 }
